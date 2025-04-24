@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player de Vídeo - Estilo TubePro</title>
+  <link rel="icon" href="image/video-icon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Ícone" class="brand-icon">
+      <h1>YouProtube</h1>
+    </div>
+    <input type="text" placeholder="Procurar vídeos...">
+  </header>
+
+  <div class="main-container">
+    <main class="video-display">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/MCPhKGyRCs4?si=nWHXqNX3tBGZfPAF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <h2>Desenvolvimento pessoal "eu prometo te ensinar a estudar de verdade nesse vídeo"</h2>
+
+      <div class="video-details">
+        <p>Carregado por <strong>Cauan</strong></p>
+        <div class="action-buttons">
+          <button>👍 123</button>
+          <button>🔁 Compartilhar</button>
+          <button>💾 Salvar</button>
+        </div>
+      </div>
+
+      <div class="tabs">
+        <button class="tab-link active" data-tab="description">Detalhes</button>
+        <button class="tab-link" data-tab="comments">Feedback</button>
+      </div>
+
+      <div class="tab-panel" id="description">
+        <p>Este é um vídeo demo para o projeto de estilo TubePro. 🚀</p>
+        <p>Aqui são detalhes sobre o vídeo, o canal e links adicionais.</p>
+      </div>
+
+      <div class="tab-panel hidden" id="comments">
+        <p><strong>João:</strong> Esse vídeo é muito bom!</p>
+        <p><strong>Ana:</strong> A qualidade tá incrível!</p>
+        <p><strong>Você:</strong> <input type="text" placeholder="Deixe seu comentário..." /></p>
+      </div>
+    </main>
+
+    <aside class="side-panel">
+      <h3>Recomendações</h3>
+      <div class="video-preview">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.PU189BQ5zOa1PxK64HZbmgHaEK&pid=Api&P=0&h=180" alt="Vídeo 1">
+        <div>
+          <p><strong>Aprenda em silencio!!</strong></p>
+          <p>Canal XYZ</p>
+        </div>
+      </div>
+      <div class="video-preview">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.IV70RXhAcjPGd0AvoIaEjgHaEK&pid=Api&P=0&h=180" alt="Vídeo 2">
+        <div>
+          <p><strong>Aprenda a crescer o YouTube da sua empresa</strong></p>
+          <p>Canal ABC Desenvolvimento</p>
+        </div>
+      </div>
+      <div class="video-preview">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.o7bKB2m8IiPc1lZ2IR46GwHaEK&pid=Api&P=0&h=180" alt="Vídeo 3">
+        <div>
+          <p><strong>O desenvolvimento, o seu maior valor!</strong></p>
+          <p>Canal desempenho melhor</p>
+        </div>
+      </div>
+      <div class="video-preview">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.hJb6qnTwXNt3Y7PS-z-PnQHaEK&pid=Api&P=0&h=180" alt="Vídeo 4">
+        <div>
+          <p><strong>A essência do desenvolvimento pessoal</strong></p>
+          <p>Canal a essência</p>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script src="js/script-new.js"></script>
+</body>
+</html>
